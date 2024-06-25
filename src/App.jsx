@@ -1,5 +1,9 @@
 import React from 'react';
 import { ContadorTareas } from './ContadorTareas.jsx'
+import { BusquedaTareas } from './BusquedaTareas.jsx';
+import { ListaTareas } from './ListaTareas.jsx';
+import { CrearTareaBoton } from './CrearTareaBoton.jsx';
+import { Tarea } from './Tarea.jsx';
 
 function App() {
   return (
@@ -15,16 +19,6 @@ function App() {
         <CrearTareaBoton />
     </div>
   );
-}
-
-function Tarea() {
-    return(
-        <li>
-            <span>V</span>
-            <p>Texto de tarea</p>
-            <span>X</span>
-        </li>
-    );
 }
 
 export default App;
