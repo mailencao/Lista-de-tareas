@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Tarea() {
+function Tarea(props) {
     return(
         <li>
             <span>V</span>
-            <p>Texto de tarea</p>
+            <p>{props.texto}</p>
             <span>X</span>
         </li>
     );
