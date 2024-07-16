@@ -13,7 +13,8 @@ const arrayTareas = [
 
 function App() {
   return (
-    <React.Fragment>
+    <>
+      <h1 className='tituloPrincipal'>Tus Tareas</h1>
         <ContadorTareas completado={10} total={15} />
         <BusquedaTareas />
 
@@ -27,7 +28,7 @@ function App() {
         </ListaTareas>
 
         <CrearTareaBoton />
-    </React.Fragment>
+    </>
   );
 }
 

@@ -1,0 +1,53 @@
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background: linear-gradient(7deg, #2688b6 0%, #77d1c5 91%);
+
+    .balsamiq-sans-regular {
+        font-family: "Balsamiq Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .balsamiq-sans-bold {
+        font-family: "Balsamiq Sans", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .balsamiq-sans-regular-italic {
+        font-family: "Balsamiq Sans", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .balsamiq-sans-bold-italic {
+        font-family: "Balsamiq Sans", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+    
+    div,#root {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #abfbf4;
+        width: 55%;
+        margin: 250px auto;
+        border-radius: 38px;
+        box-shadow: -1px 0px 70px 0px #1c204ab5;
+    }
+
+    h1 {
+        font-family: "Balsamiq Sans";
+        color: #68508c;
+        font-size: 80px;
+        margin: 16px;
+    }
+
+
+};
+
+
