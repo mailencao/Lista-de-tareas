@@ -1,51 +1,172 @@
 body {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    background: linear-gradient(7deg, #2688b6 0%, #77d1c5 91%);
+  margin: 0px;
+  background:#275b57;;
 
-    .balsamiq-sans-regular {
-        font-family: "Balsamiq Sans", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
-      .balsamiq-sans-bold {
-        font-family: "Balsamiq Sans", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-      }
-      
-      .balsamiq-sans-regular-italic {
-        font-family: "Balsamiq Sans", sans-serif;
-        font-weight: 400;
-        font-style: italic;
-      }
-      
-      .balsamiq-sans-bold-italic {
-        font-family: "Balsamiq Sans", sans-serif;
-        font-weight: 700;
-        font-style: italic;
-      }
+  /*/////////////Font///////////////*/
+  .ibm-plex-sans-thin {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
     
-    div,#root {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: #abfbf4;
-        width: 55%;
-        margin: 250px auto;
-        border-radius: 38px;
-        box-shadow: -1px 0px 70px 0px #1c204ab5;
-    }
+  .ibm-plex-sans-extralight {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+    
+  .ibm-plex-sans-light {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+    
+  .ibm-plex-sans-regular {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+  .ibm-plex-sans-medium {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+    
+  .ibm-plex-sans-semibold {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .ibm-plex-sans-bold {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+    
+  .ibm-plex-sans-thin-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+    
+  .ibm-plex-sans-extralight-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+    
+  .ibm-plex-sans-light-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+    
+  .ibm-plex-sans-regular-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+    
+  .ibm-plex-sans-medium-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+    
+  .ibm-plex-sans-semibold-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+    
+  .ibm-plex-sans-bold-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+    /*//////////////////////////////*/
 
-    h1 {
-        font-family: "Balsamiq Sans";
-        color: #68508c;
-        font-size: 80px;
-        margin: 16px;
-    }
+  div,#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #afcfc9;
+    width: 43%;
+    margin: 7% auto;
+    padding: 1% 2%;
+    border: solid 35px #378f8e;
+    border-radius: 42px;
+    box-shadow: -1px 0px 70px 0px #112c39;
+  }
+
+  h1.tituloPrincipal {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 456%;
+    color: #112c39;
+    margin: 0;
+  }
+
+  h3.contador {
+    font-family: 'IBM Plex Sans';
+    font-size: 24px;
+    margin: 1% 0 3% 0;
+    color: #112c39;
+    font-weight: 400;
+  }
+
+  ul{
+    margin: 3% 0 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 30%;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    
+  .ico{
+    margin: 0 20%;
+  }
+
+  .sarchBar{
+    width: 40%;
+    height: 25px;
+    font-family: 'IBM Plex Sans';
+    padding: 1%;
+    color: #089999;
+    font-size: 20px;
+    font-weight: 600;
+    border: solid 2px #087f7c;
+    border-radius: 17px;
+  } 
+
+  .tareaText {
+    font-family: 'IBM Plex Sans';
+    color: #0e3b59;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .botonCrear{
+    width: 70px;
+    height: 70px;
+    font-family: 'IBM Plex Sans';
+    padding: 1%;
+    background: #4db4b4;
+    font-size: 20px;
+    font-weight: 600;
+    border: solid 5px #087f7c;
+    border-radius: 43px;
+    margin-left: 93%;   
+  }
+  
 
 
 };

@@ -2,7 +2,7 @@ import React from 'react';
 
 function CrearTareaBoton() {
     return(
-        <button>Crear</button>
+        <button className='botonCrear'>+</button>
     );
 }
 

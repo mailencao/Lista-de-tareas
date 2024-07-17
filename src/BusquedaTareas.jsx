@@ -2,7 +2,7 @@ import React from 'react';
 
 function BusquedaTareas() {
     return(
-        <input placeholder="Buscar..." />
+        <input placeholder="Buscar..." className='sarchBar' />
     );
 }
 

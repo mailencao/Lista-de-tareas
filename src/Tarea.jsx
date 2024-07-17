@@ -3,9 +3,9 @@ import React from 'react';
 function Tarea(props) {
     return(
         <li>
-            <span>V</span>
-            <p>{props.texto}</p>
-            <span>X</span>
+            <span className='ico iconoHecho'>V</span>
+            <p className='tareaText'>{props.texto}</p>
+            <span className='ico iconoBorrar'>X</span>
         </li>
     );
 }
