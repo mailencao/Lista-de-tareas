@@ -12,11 +12,17 @@ const arrayTareas = [
 ];
 
 function App() {
+  const [busqueda, setBusqueda] = React.useState('');
+
+
   return (
     <>
       <h1 className='tituloPrincipal'>Tus Tareas</h1>
         <ContadorTareas realizadas={10} total={15} />
-        <BusquedaTareas />
+        <BusquedaTareas
+        buqueda={busqueda}
+        setBusqueda={setBusqueda}
+        />
 
         <ListaTareas>
           {arrayTareas.map(tarea => (

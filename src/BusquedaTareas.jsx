@@ -1,9 +1,7 @@
 import React from 'react';
 import './barraBusqueda.css'
 
-function BusquedaTareas() {
-    const [busqueda, setBusqueda] = React.useState('');
-   
+function BusquedaTareas({busqueda, setBusqueda}) {
     return(
         <input 
         placeholder="Buscar..." 
