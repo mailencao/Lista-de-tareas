@@ -1,9 +1,9 @@
 import React from 'react';
 import './contadorTareas.css'
 
-function ContadorTareas({ total, completado }) {
+function ContadorTareas({ total, realizadas }) {
     return(
-     <h3 className='contador'>Has realizado {completado} de {total} tareas</h3>
+     <h3 className='contador'>Has realizado {realizadas} de {total} tareas</h3>
     );
 }
 

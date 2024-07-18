@@ -6,16 +6,16 @@ import { CrearTareaBoton } from './CrearTareaBoton.jsx';
 import { Tarea } from './Tarea.jsx';
 
 const arrayTareas = [
-  { texto: 'a', hecho: false },
-  { texto: 'b', hecho: false },
-  { texto: 'c', hecho: false },
+  { texto: 'a', completado: true },
+  { texto: 'b', completado: false },
+  { texto: 'c', completado: false },
 ];
 
 function App() {
   return (
     <>
       <h1 className='tituloPrincipal'>Tus Tareas</h1>
-        <ContadorTareas completado={10} total={15} />
+        <ContadorTareas realizadas={10} total={15} />
         <BusquedaTareas />
 
         <ListaTareas>
