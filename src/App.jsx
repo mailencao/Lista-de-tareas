@@ -23,6 +23,7 @@ function App() {
             <Tarea 
             key={tarea.texto} 
             texto={tarea.texto}
+            completado={tarea.completado}
             />
           ))}
         </ListaTareas>
