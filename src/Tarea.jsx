@@ -1,4 +1,5 @@
 import React from 'react';
+import './tarea.css'
 
 function Tarea(props) {
     return(

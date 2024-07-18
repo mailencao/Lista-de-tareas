@@ -1,0 +1,12 @@
+.botonCrear{
+    width: 70px;
+    height: 70px;
+    font-family: 'IBM Plex Sans';
+    padding: 1%;
+    background: #4db4b4;
+    font-size: 20px;
+    font-weight: 600;
+    border: solid 5px #087f7c;
+    border-radius: 43px;
+    margin-left: 93%;   
+  }

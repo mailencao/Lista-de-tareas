@@ -1,4 +1,5 @@
 import React from 'react';
+import './contadorTareas.css'
 
 function ContadorTareas({ total, completado }) {
     return(

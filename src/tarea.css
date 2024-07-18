@@ -1,0 +1,21 @@
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #82c0be solid 3px;
+    margin: 3%;
+    border-radius: 6px;
+    background: white;
+}
+    
+.ico{
+    margin: 0 20%;
+}
+
+.tareaText {
+    font-family: 'IBM Plex Sans';
+    color: #0e3b59;
+    font-size: 22px;
+    font-weight: 400;
+}
