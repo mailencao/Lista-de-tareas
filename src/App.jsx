@@ -5,27 +5,33 @@ import { ListaTareas } from './ListaTareas.jsx';
 import { CrearTareaBoton } from './CrearTareaBoton.jsx';
 import { Tarea } from './Tarea.jsx';
 
-const arrayTareas = [
-  { texto: 'a', completado: true },
-  { texto: 'b', completado: false },
-  { texto: 'c', completado: false },
+const defaultTareas = [
+  { texto: 'Crea tu primer tarea', completado: false },
+  { texto: 'Elimina esta tarea', completado: false },
+  { texto: 'Tarea completada!!', completado: true }
 ];
 
 function App() {
+  const [tareas, setTareas] = React.useState(defaultTareas);
   const [busqueda, setBusqueda] = React.useState('');
+
+  const tareasCompletadas = tareas.filter( tarea => tarea.completado).length;
+  const totalTareas = tareas.length;
 
 
   return (
     <>
       <h1 className='tituloPrincipal'>Tus Tareas</h1>
-        <ContadorTareas realizadas={10} total={15} />
+        <ContadorTareas 
+        realizadas={tareasCompletadas} 
+        total={totalTareas} />
         <BusquedaTareas
         buqueda={busqueda}
         setBusqueda={setBusqueda}
         />
 
         <ListaTareas>
-          {arrayTareas.map(tarea => (
+          {defaultTareas.map(tarea => (
             <Tarea 
             key={tarea.texto} 
             texto={tarea.texto}
