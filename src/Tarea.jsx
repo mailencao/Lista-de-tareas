@@ -2,6 +2,7 @@ import React from 'react';
 import './tarea.css'
 
 function Tarea(props) {
+
     return(
         <li>
             <span 
@@ -16,8 +17,7 @@ function Tarea(props) {
             
             <span 
             className='ico iconoBorrar'
-            onClick={ () => 
-                console.log('hiciste un clic en Borrar')
+            onClick={ () => props.onDelete(props.id)
             }>X</span>
         </li>
     );
