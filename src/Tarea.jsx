@@ -7,8 +7,7 @@ function Tarea(props) {
         <li>
             <span 
             className={`ico icoCheck ${props.completado && "icoCheckCompletado"}`} 
-            onClick={ () => 
-            console.log('hiciste un clic en Completado')
+            onClick={ () => props.onTogglerCompletado(props.id)
             }>V</span>
 
             <p 

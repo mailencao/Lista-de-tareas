@@ -23,6 +23,16 @@ function App() {
     const nuevasTareas = tareas.filter( tarea => tarea.id !== id);
     setTareas(nuevasTareas)
   }
+  const togglerCompletado = (id) => {
+    setTareas (tareas.map((tarea) => {
+      if (tarea.id === id) {
+        return { ...tarea, completado: !tarea.completado }
+      }
+      return tarea
+      })
+    );
+  };
+
 
   return (
     <>
@@ -44,6 +54,7 @@ function App() {
             texto={tarea.texto}
             completado={tarea.completado}
             onDelete={handleDelete}
+            onTogglerCompletado={togglerCompletado}
             />
           ))}
         </ListaTareas>
